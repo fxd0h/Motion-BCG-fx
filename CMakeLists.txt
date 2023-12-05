@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.10)
 project(SBGC32_LinuxDebug C)
 
 set(CMAKE_C_STANDARD 11)
@@ -39,3 +39,4 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PUBLIC .)
 target_include_directories(${PROJECT_NAME} PUBLIC ../../../serialAPI)
+#target_link_libraries(${PROJECT_NAME} m)

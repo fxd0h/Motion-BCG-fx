@@ -166,7 +166,8 @@ extern 		"C" {
 	 */
 	/**	@}
 	 */
-	#define SBGC_SERIAL_PORT		"/dev/tty.usbserial-0001"	/*!<  Path to a connected SBGC32 device												*/
+	//#define SBGC_SERIAL_PORT		"/dev/tty.usbserial-0001"	
+	 #define SBGC_SERIAL_PORT		" /dev/ttyUSB0"	/*!<  Path to a connected SBGC32 device								*/
 #endif /* SBGC_USE_LINUX_DRIVER */
 
 
